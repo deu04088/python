@@ -1,0 +1,5 @@
+user_input = input("내용 입력 : ")                  #????????????? 뭐하는 거?
+f = open('test.txt', 'a')
+f.write(user_input)
+f.write("\n")
+f.close()
